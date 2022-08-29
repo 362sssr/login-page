@@ -1,0 +1,48 @@
+//HTML
+
+<html>
+<head>
+<title>
+facebook
+</title>
+<link rel="stylesheet" href="facebookcss.css">
+</head>
+<body>
+<fieldset class="ab">
+Welcome To Facebook<br><br>
+<fieldset class="cd">
+<u>SIGN UP</u><br><br>
+<table>
+<tr>
+<td>
+First Name</td><td><input type="text" placeholder="First
+Name"></td></tr><tr>
+<td>Email</td><td><input type="text" placeholder="Your
+Email"></td></tr><tr>
+<td>Password</td><td><input type="text" placeholder="Your
+Password"></td>
+
+</tr><tr><td colspan="3">
+<button align="center">Sign
+Up</button></td><td></td><td></td></tr>
+
+</table>
+
+</fieldset>
+</fieldset>
+</body>
+</html>
+
+//CSS
+
+fieldset.ab{background-color:seashell;padding:70px;}
+.cd{font-size:30px;text-align:left;background-color:white;}
+
+body{background-color:steelblue;text-align:center;font-
+size:40px;padding:50px;}
+
+table{padding:10px 150px 10px;}
+input{padding:8px;width:500px;}
+
+button{width:600px;padding:8px;text-align:center;background-
+color:royalblue;color:white;}
